@@ -4,9 +4,9 @@ let btn2 = document.getElementById("btn2")
 let btn3 = document.getElementById("btn3")
 
 let reqem =0 
-btn1.addEventListener("click",function(){
-    reqem -- 
-    sp.innertext= reqem
+btn1.addEventListener("click" , function(){
+    reqem--;
+    sp.innerText=reqem;
 })
 btn2.addEventListener("click", function (){
     sp.innerText = reqem
